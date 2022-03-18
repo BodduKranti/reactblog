@@ -1,8 +1,14 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap'
 import { NavLink } from 'react-router-dom'
-
+import VpnKeyIcon from '@mui/icons-material/VpnKey';
+import HowToRegIcon from '@mui/icons-material/HowToReg';
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import { cartItemContext } from '../../Context/Context';
 const Header = () => {
+
+  let {countItm} = useContext(cartItemContext)
+
   return (
     <>
       <Navbar bg="primary" className='navbar-dark' expand="lg">
@@ -24,6 +30,17 @@ const Header = () => {
               <Nav.Link as={NavLink} to="/products">Products</Nav.Link>
             </Nav>
           </Navbar.Collapse>
+          <div className='buttons'>
+            <NavLink to="/login" className="btn border-light text-light me-2">
+              <VpnKeyIcon /> Login
+            </NavLink>
+            <NavLink to="/register" className="btn border-light text-light me-2">
+              <HowToRegIcon /> Register
+            </NavLink>
+            <NavLink to="/cart" className="btn border-light text-light">
+              <ShoppingCartIcon /> Cart {countItm>0?<>{countItm}</>:0}
+            </NavLink>
+          </div>
         </Container>
       </Navbar>
     </>

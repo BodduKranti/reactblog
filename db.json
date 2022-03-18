@@ -1,83 +1,6 @@
 {
   "blog": [
     {
-      "title": "title  dddfdg",
-      "Category": "g",
-      "Author": "fg",
-      "Desc": "e",
-      "id": "1"
-    },
-    {
-      "id": "2",
-      "title": "title2",
-      "Category": "Book2",
-      "Author": "kranti2",
-      "Desc": "Lorem ispum2"
-    },
-    {
-      "title": "test",
-      "Category": "test",
-      "Author": "test",
-      "Desc": "test",
-      "id": "5Kkwd09"
-    },
-    {
-      "title": "test2",
-      "Category": "test2",
-      "Author": "test2",
-      "Desc": "test2",
-      "id": "LWL_Ti1"
-    },
-    {
-      "title": "dfdfdf",
-      "Category": "fdfdf",
-      "Author": "",
-      "Desc": "",
-      "id": "JELCv9e"
-    },
-    {
-      "title": "dfdfdf",
-      "Category": "fdfdf",
-      "Author": "sdsd",
-      "Desc": "sdfsd",
-      "id": "K1t_6F2"
-    },
-    {
-      "title": "dfdfdf",
-      "Category": "fdfdf",
-      "Author": "sdsd",
-      "Desc": "sdfsd",
-      "id": "-wewXPH"
-    },
-    {
-      "title": "",
-      "Category": "",
-      "Author": "",
-      "Desc": "",
-      "id": "wcaN8oi"
-    },
-    {
-      "title": "test",
-      "Category": "tste",
-      "Author": "tst",
-      "Desc": "tse",
-      "id": "Sk9onUJ"
-    },
-    {
-      "title": "stesta",
-      "Category": "stts",
-      "Author": "st",
-      "Desc": "st",
-      "id": "XYv1lr9"
-    },
-    {
-      "title": "dsssss",
-      "Category": "sdf",
-      "Author": "sdf",
-      "Desc": "sdf",
-      "id": "uGKCYAS"
-    },
-    {
       "title": "Examples of Blogs – Inspiration for New Bloggers",
       "Category": "News",
       "Author": "Jamie Spencer",
@@ -85,11 +8,18 @@
       "id": "3V65IuU"
     },
     {
-      "title": "tyre",
-      "Category": "machine",
-      "Author": "Kranti",
-      "Desc": "kjhjhkhkjh",
-      "id": "5fgqBRi"
+      "title": "The Huffington Post",
+      "Category": "News",
+      "Author": "Nick Denton",
+      "Desc": "The history of political blogging might usefully be divided into the periods pre- and post-Huffington. Before the millionaire socialite Arianna Huffington decided to get in on the act, bloggers operated in a spirit of underdog solidarity. They hated the mainstream media - and the feeling was mutual.\n\nAdvertisement\nBloggers saw themselves as gadflies, pricking the arrogance of established elites from their home computers, in their pyjamas, late into the night. So when, in 2005, Huffington decided to mobilise her fortune and media connections to create, from scratch, a flagship liberal blog she was roundly derided. Who, spluttered the original bloggerati, did she think she was?\n\nBut the pyjama purists were confounded. Arianna's money talked just as loudly online as off, and the Huffington Post quickly became one of the most influential and popular journals on the web. It recruited professional columnists and celebrity bloggers. It hoovered up traffic. Its launch was a landmark moment in the evolution of the web because it showed that many of the old rules still applied to the new medium: a bit of marketing savvy and deep pockets could go just as far as geek credibility, and get there faster.\n\nTo borrow the gold-rush simile beloved of web pioneers, Huffington's success made the first generation of bloggers look like two-bit prospectors panning for nuggets in shallow creeks before the big mining operations moved in. In the era pre-Huffington, big media companies ignored the web, or feared it; post-Huffington they started to treat it as just another marketplace, open to exploitation. Three years on, Rupert Murdoch owns MySpace, while newbie amateur bloggers have to gather traffic crumbs from under the table of the big-time publishers.",
+      "id": "jgeSLJZ"
+    },
+    {
+      "title": "Kottke",
+      "Category": "News",
+      "Author": "Nick Denton",
+      "Desc": "One of the early wave of blogging pioneers, web designer Jason Kottke started keeping track of interesting things on the internet as far back as 1998. The site took off, boosted partly through close links to popular blog-building website Blogger (he later married one of the founders). And as the phenomenon grew quickly, Kottke became a well-known filter for surfers on the lookout for interesting reading.\n\nAdvertisement\n\nKottke remains one of the purest old-skool bloggers on the block - it's a selection of links to websites and articles rather than a repository for detailed personal opinion - and although it remains fairly esoteric, his favourite topics include film, science, graphic design and sport. He often picks up trends and happenings before friends start forwarding them to your inbox. Kottke's decision to consciously avoid politics could be part of his appeal (he declares himself 'not a fan'), particularly since the blog's voice is literate, sober and inquiring, unlike much of the red-faced ranting found elsewhere online.\n\nA couple of key moments boosted Kottke's fame: first, being threatened with legal action by Sony for breaking news about a TV show, but most notably quitting his web-design job and going solo three years ago. A host of 'micropatrons' and readers donated cash to cover his salary, but these days he gets enough advertising to pay the bills. He continues to plug away at the site as it enters its 10th year.",
+      "id": "RYEiW-r"
     }
   ]
 }

@@ -46,6 +46,13 @@ const BlogPostList = () => {
       .catch(error => { console.log(error) })
   }
 
+
+  //delete blog method here
+  const DeleteBlog = async (id) =>{
+    await axios.delete(`http://localhost:3000/blog/${id}`)
+    .then((response)=>{ showData();})
+  } 
+
   const updateBlog=async(id)=>{
     await axios.put(`http://localhost:3000/blog/${id}`, blogField).
     then(response => {
@@ -97,7 +104,7 @@ const BlogPostList = () => {
                         <RemoveRedEyeIcon />  
                       </NavLink>    
                       
-                      <i className=' text-danger'><DeleteIcon /></i>
+                      <i onClick={()=>DeleteBlog(id)} className=' text-danger'><DeleteIcon /></i>
                     </td>
                   </tr>
                 </>)
