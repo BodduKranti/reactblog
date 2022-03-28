@@ -1,0 +1,22 @@
+
+
+.login-register{
+    background-image: url('../public/images/hero-img.png');
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    // &::after{
+    //     content: "";
+    //     left: 0;
+    //     right: 0;
+    //     top: 0;
+    //     bottom: 0;
+    //     background-color: rgba(255,255,255,.5);
+    //     position: absolute;
+    // }
+    // &>.container{
+    //     position: relative;
+    //     z-index: 9;
+    // }
+}

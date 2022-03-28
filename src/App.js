@@ -2,6 +2,8 @@ import './App.css';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'react-bootstrap';
+import './style.scss';
+import 'react-toastify/dist/ReactToastify.css';
 
 //this routing present in below
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
@@ -53,7 +55,7 @@ const delItms = (id)=>{
         <BrowserRouter>
           <Header />
           <Routes>
-            <Route path='' element={<Home />} />
+            <Route path='' element={<Home />} />            
             <Route path='/blog' element={<Blog />} />
             <Route path='/add-blog' element={<AddBlog />} />
             <Route path='/blogList' element={<BlogPostList />} />
